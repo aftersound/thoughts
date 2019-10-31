@@ -1,6 +1,6 @@
 # An imagined healthy structure for company truely cares about data.
 
-- a set of teams aligned with product/business domains, each 
+- a set of teams either aligned with product/business domains or be part of product/business domains, each 
   - consists of data scientists and data engineers who know the product/business domain and work closely with aligned with product/business team
   - mines and manages data insights needed by aligned product/business domain.
   
