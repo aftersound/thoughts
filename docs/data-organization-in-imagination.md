@@ -21,9 +21,9 @@ IMO, it's important to separate data centric teams from data infrastructure/plat
 
 - data centric teams' focus is data. They are closer to busines and their values are realized in 
   - business decisions influenced by data
-  - product improvement driven by data
   - business metrics driven by data
   - product healthiness indicated by data
+  - product improvement driven by data
   - etc. by data
   
 - infrastructure/platform/framework teams' responsibility is to provide playground for data centric teams. They are imporant but less closer to business, and their values are realized in
