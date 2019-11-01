@@ -1,7 +1,7 @@
 # An imagined healthy structure for company truely cares about data.
 
 - a set of teams either aligned with product/business domains or be part of product/business domains, each 
-  - consists of data scientists and data engineers who know the product/business domain and work closely with aligned with product/business team
+  - consists of data scientists and data engineers who know the product/business domain and work closely with aligned  product/business team
   - mines and manages data insights needed by aligned product/business domain.
   
 - a horizontal team which manages raw data sets, integrated data sets and insights which could be leveraged across product/business domains and all vertical data teams.
