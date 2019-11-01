@@ -31,7 +31,7 @@ IMO, it's important to separate data centric teams from data infrastructure/plat
   - enable data centric teams to do a better work to get value out of data, by maintaining a great playground.
   
 - mind set/skill sets/passions of people working on data is very different from that of those working on infrastructure/platform/framework. 
-  - a data centric org under a leader with strong infra/platform/framework background is less effective. Similarly, a data infra/platform/framework org under a leader with focus on data is also less effective.
+  - a data centric org under a leader with strong infra/platform/framework background but not keen to data and value of data is less effective. Similarly, a data infra/platform/framework org under a leader with focus on data but not paying enough attention to tech stack is also less effective.
   - data centric team lacks of skill sets and passion to build and operate infrastructure/platform/framework. Meanwhile, infra/platform/framework people might not have a good understanding in data work and its values. 
   
 - as a matter of fact, both types of work nowadays are so demanding, each needs its own dedication, so each type of work needs dedicated team consisting of right set of people with right set of skills.
