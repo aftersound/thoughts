@@ -64,8 +64,8 @@ Insight data sets are what business/product teams are constantly looking for. Th
   - Level 2
     - insight data sets which could influence business decision, guide business operation, improve product. Typically, 
     at this level, business teams and product teams know exactly what kind of data insight they are looking for to meet 
-    the needs at their end, no matter supporting data for a pending decision or a missing data for a product feature. 
-    Insight data sets at this level have direct impact on driving business and product metrics.
+    the needs at their end, no matter it's supporting data for a pending decision or a missing data for a product 
+    feature. Insight data sets at this level have direct impact on driving business and product metrics.
   
   - Level 3
     - insight data sets which could predict how business/product should/could be improved. Insight data sets at this 
@@ -85,4 +85,5 @@ mining and managing those data sets which could
 - drive business and product metrics
 - power new products and new business territories
 
-The KPI to measure success of data centric teams is expected to be set around these points.
+The KPIs to measure the success of data centric teams is expected to be set around these points instead of supporting 
+KPIs, like unit test coverage, etc.
