@@ -49,7 +49,7 @@ Integrated data sets are derived from raw data sets by applying
 
   Integrated data sets are certified/trusted, also systematically optimized, data layer, which is expected to be 
   consumed by further data processing/mining. Data work that produces and maintains integrated data sets has the 
-  similar rhythms as that for raw data sets, the difference is it does many heavy liftings for those working on insights 
+  similar rhythms as that for raw data sets, the difference is it does many heavy lifting for those working on insights 
   data sets, including analytic folks, data scientists, data engineers, for downstream systems relying on high quality 
   source data somewhat integrated.
 
@@ -75,7 +75,7 @@ Insight data sets are what business/product teams are constantly looking for. Th
 
 ## Conclusion
 
-With that, here is the conclusion by reiterating the points. The value proposition of data centric teams is lying in 
+With that, here is the conclusion by reiterating the points. The value proposition of data centric teams lies in 
 mining and managing those data sets which could  
 
 - indicate business and product healthiness
