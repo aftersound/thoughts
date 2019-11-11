@@ -75,7 +75,7 @@ Insight data sets are what business/product teams are constantly looking for. Th
 
 ## Conclusion
 
-With that, here is the conclusion by reiterating the points. The value proposition of data centric teams is lying in  
+With that, here is the conclusion by reiterating the points. The value proposition of data centric teams is lying in 
 mining and managing those data sets which could  
 
 - indicate business and product healthiness
