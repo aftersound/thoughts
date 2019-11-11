@@ -6,6 +6,7 @@ or [Github link](https://aftersound.github.io/thoughts/data-organization-in-imag
 thoughts on values of data centric teams, I want to expand that topic a bit more after several conversations with my 
 co-workers and friends.
 
+## Recap
 First, recap the points mentioned in that article.
 
 Data centric teams’ focus is data. They are closer to business and their values are realized in
@@ -16,10 +17,13 @@ Data centric teams’ focus is data. They are closer to business and their value
 - product improvement driven by data
 - etc. by data
 
+## Expanded Discussion
+
 Those values could be classified into several categories and levels by the nature of data from data work and the type of
  impact the data work/data has on business/product.
  
-- Raw data sets  
+### Raw data sets  
+
 Raw data sets are unprocessed, typically consists of transactional data generated from business and product flows and 
 activity data of users of product.  The most important part of data work about raw data sets is to maintain their 
 life-cycles, 
@@ -32,7 +36,8 @@ life-cycles,
   data work is often ignored, overlooked, underestimated. But in fact, it has to be solid as rock simply because the 
   data sets are so fundamental.
 
-- Integrated data sets  
+### Integrated data sets  
+
 Integrated data sets are derived from raw data sets by applying
   - cleansing
   - integrity validation
@@ -48,8 +53,10 @@ Integrated data sets are derived from raw data sets by applying
   data sets, including analytic folks, data scientists, data engineers, for downstream systems relying on high quality 
   source data somewhat integrated.
 
-- Insight data sets  
+### Insight data sets  
+
 Insight data sets are what business/product teams are constantly looking for. They could be grouped into three levels.
+
   - Level 1
     - insight data sets which could tell whether business is performing and whether product is healthy, but they can 
     not tell why business is performing or not performing, or how to improve product. They are basic, they are must-have.
@@ -66,8 +73,10 @@ Insight data sets are what business/product teams are constantly looking for. Th
     teams mines data insight which identifies the opportunities which are out of mind of business/product team, (2) 
     the impact could be more significant.
 
-With that, here is the conclusion by reiterating the points. The value proposition of data centric teams is to mine and 
-manage those data sets which could  
+## Conclusion
+
+With that, here is the conclusion by reiterating the points. The value proposition of data centric teams is lying in  
+mining and managing those data sets which could  
 
 - indicate business and product healthiness
 - influence business decisions
