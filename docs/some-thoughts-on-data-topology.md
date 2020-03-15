@@ -14,7 +14,7 @@ If you are someone who has been working on big data area for a while, you must h
 - ...
 
 In the place I work for, it's not always easy to get a straight answer to any of the questions. Actually, in many cases, it's like crawling 
-through patches of entangled weeds to get an answer. I think there are many reasons.
+through patches of entangled weeds one after another to get an answer. I think there are many reasons.
 - so many technologies involved
   - for storing data, HDFS, Teradata, Swift, Cassandra, Couchbase, Mongo, Elasticsearch, etc.
   - for processing data, Hadoop MapReduce (obsolete but legacy is there), Spark, Flink, Storm, Teradata SQL, scripts in different languages,
@@ -49,7 +49,7 @@ Data topology is formed around 3 basic elements.
 ![](pics/data-actor-and-data-container.png)
 
 - data actor, which is reflection/representation of running unit does something about data, with storing/containing data excluded.
-- data container, which is reflection/representation of entity which contains data, could be a Kafka Topic, or a Cassandra table in a 
+- data container, which is reflection/representation of running unit which contains data, could be a Kafka Topic, or a Cassandra table in a 
 keyspace, a Couchbase bucket, a HDFS file within a directory, a HIVE table, a OpenSwift container, an Elasticsearch index, a MySQL table, 
 etc.
 - arrowed line, an arrow represents data flow direction, while the line reflects the coupling/connection between two components, either 
