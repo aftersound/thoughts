@@ -51,7 +51,7 @@ Data topology is formed around 3 basic elements.
 - data container, which is reflection/representation of entity which contains data, could be a Kafka Topic, or a Cassandra table in a 
 keyspace, a Couchbase bucket, a HDFS file within a directory, a HIVE table, a OpenSwift container, an Elasticsearch index, a MySQL table, 
 etc.
-- arrow, an arrow not only represents data flow direction, but also reflects the coupling/connection between two components, either actor or
+- arrowed line, an arrow represents data flow direction, while the line reflects the coupling/connection between two components, either actor or
 container.
 
 Here are the explanation on how everything works.
