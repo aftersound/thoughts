@@ -1,6 +1,6 @@
 # Some thoughts on data topology
 
-## Through entangled weeds in data world
+## Through patches of entangled weeds in data world
 
 If you are someone who has been working on big data area for a while, you must have been dealing with following questions day in and day out. 
 
@@ -14,7 +14,7 @@ If you are someone who has been working on big data area for a while, you must h
 - ...
 
 In the place I work for, it's always not easy to get a straight answer to any of the questions. Actually, in many cases, it's like crawling 
-through a patch of entangled weeds to get an answer. I think there are many reasons.
+through patches of entangled weeds to get an answer. I think there are many reasons.
 - so many technologies involved
   - for storing data, HDFS, Teradata, Swift, Cassandra, Couchbase, Mongo, Elasticsearch, etc.
   - for processing data, Hadoop MapReduce (obsolete but legacy is there), Spark, Flink, Storm, Teradata SQL, script-driven, etc.
@@ -23,8 +23,9 @@ through a patch of entangled weeds to get an answer. I think there are many reas
   - often run on different platforms
   - many you and your team don't have control
 - information and knowledge are scattered
-  - among different forms of documents
-  - among codes in different code base
+  - among all kinds of documents
+  - among codes in different code bases
+  - among minds of different people
 
 I have been looking for something that can not only given straight answers to most of the questions, but also provide a more complete view
  with enough clarity on how data flows through the components, include those in upstream team's control, those in my team's scope, those in 
