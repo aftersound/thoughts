@@ -17,19 +17,20 @@ In the place I work for, it's not always easy to get a straight answer to any of
 through patches of entangled weeds to get an answer. I think there are many reasons.
 - so many technologies involved
   - for storing data, HDFS, Teradata, Swift, Cassandra, Couchbase, Mongo, Elasticsearch, etc.
-  - for processing data, Hadoop MapReduce (obsolete but legacy is there), Spark, Flink, Storm, Teradata SQL, script-driven, etc.
+  - for processing data, Hadoop MapReduce (obsolete but legacy is there), Spark, Flink, Storm, Teradata SQL, scripts in different languages,
+   etc.
 - so many components involved
   - often written in different languages
   - often run on different platforms
-  - many you and your team don't have control
+  - many that you and your team don't have control
 - information and knowledge are scattered
   - among all kinds of documents
   - among codes in different code bases
   - among minds of different people
 
-I have been looking for something that can not only given straight answers to most of the questions, but also provide a more complete view
- with enough clarity on how data flows through the components, include those in upstream team's control, those in my team's scope, those in 
-downstream team's territory. Better yet, you can use it to monitor as a whole.
+I have been looking for something that can not only given straight answers to most of the questions, but also provide an integrated view,
+ which is more complete and has enough clarity, about how data flows through the components, include those in upstream team's control, 
+ those in my team's scope, those in downstream team's territory, what each component does.
 
 But so far no satisfactory finding. Orchestration solutions like UC4, Spring Cloud DataFlow, AirFlow, are probably the closest ones, 
 they could provide very nice view of work flow, showing processing steps and DAG, but they don't help too much w.r.t answering questions 
@@ -40,7 +41,7 @@ might worth sharing.
 
 ## Idea of data topology
 
-First of all, I need to make it very clear, data topology is a reflection of running system in data flow from start to end, not running 
+First of all, I have to make it very clear, data topology is a reflection of running system where data flows from begin to end, not running 
 system itself.
 
 Data topology is formed around 3 basic elements.
@@ -51,25 +52,28 @@ Data topology is formed around 3 basic elements.
 - data container, which is reflection/representation of entity which contains data, could be a Kafka Topic, or a Cassandra table in a 
 keyspace, a Couchbase bucket, a HDFS file within a directory, a HIVE table, a OpenSwift container, an Elasticsearch index, a MySQL table, 
 etc.
-- arrowed line, an arrow represents data flow direction, while the line reflects the coupling/connection between two components, either actor or
-container.
+- arrowed line, an arrow represents data flow direction, while the line reflects the coupling/connection between two components, either 
+actor or container.
 
 Here are the explanation on how everything works.
-- data actor can connect data container or data actor
-- data container cannot connect data container
+- data actor can connect with data container or data actor
+- data container cannot connect with data container
 - one data actor can connect with multiple data containers and or multiple data actors
-- arrow indicates data flow and direction, when data flows through a data actor, some processing happens, it could be as simple as copying
+- arrow indicates data flow and direction
+- when data flows through a data actor, some processing happens, it could be as simple as copying
 - an arrow leading out of a data container means data flows out of the data container
 - an arrow leading into a data container means data flows into the data container
 - an arrow leading into a data actor means the data actor takes in data then process it
 - an arrow leading out of data actor means the data actor finishes processing then lets processed data flows toward downstream component
 - data actor can have many information attached, such as underlying system information, setting of connection to data container or another 
-data actor, how to probe itself and connectivity what kind of processing it applies to data flowed-in, link to source code, etc.
-- data container can also have many information attached, such as cluster information, how to probe cluster, DDL scripts, data schemas, 
-how to inspect data contained, etc.
+data actor, how to probe itself and connectivity with other components, what kind of processing it applies to data flowed-in, link to 
+source code, etc.
+- data container can also have many information attached, such as cluster information, how to probe cluster and the container, DDL scripts, 
+data schemas, how to inspect data contained, etc.
 
 Below is one sample data topology as a reflection of real data processing runtime, data service and end data consuming application, without 
-revealing details.
+revealing details. User could not only get a full picture, but could also interact with each component on the topology to get information 
+needed for operating, inspection, triaging and monitoring.
 
 ![](pics/sample-data-topology.png)
 
@@ -77,6 +81,6 @@ revealing details.
 
 The idea of data topology described here is one step closer to what I have been looking for. 
 - it could provide a more complete picture of a running data system
-- it could capture/bring key information together, hence provide easy access
+- it could capture/bring key information together, hence provide easy access to those information for everyday work.
 
 Next step is probably to work on a PoC.
