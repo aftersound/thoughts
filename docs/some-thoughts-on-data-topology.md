@@ -30,7 +30,7 @@ I have been looking for something that can not only given straight answers to mo
  with enough clarity on how data flows through the components, include those in upstream team's control, those in my team's scope, those in 
 downstream team's territory. Better yet, you can use it to monitor as a whole.
 
-But so far no satisfactory finding. Orchestration solutions like UC4, Spring Cloud DataFlow, AirFlow, are probably the most closest ones, 
+But so far no satisfactory finding. Orchestration solutions like UC4, Spring Cloud DataFlow, AirFlow, are probably the closest ones, 
 they could provide very nice view of work flow, showing processing steps and DAG, but they don't help too much w.r.t answering questions 
 like where the data is stored or what is the schema, and they can't tell anything goes beyond what's orchestrated and scheduled.
 
