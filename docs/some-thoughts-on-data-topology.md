@@ -13,7 +13,7 @@ If you are someone who has been working on big data area for a while, you must h
 - what kind of processing is applied to the data?
 - ...
 
-In the place I work for, it's always easy to get a straight answer to any of the questions. Actually, in many cases, it's like crawling 
+In the place I work for, it's always not easy to get a straight answer to any of the questions. Actually, in many cases, it's like crawling 
 through a patch of entangled weeds to get an answer. I think there are many reasons.
 - so many technologies involved
   - for storing data, HDFS, Teradata, Swift, Cassandra, Couchbase, Mongo, Elasticsearch, etc.
