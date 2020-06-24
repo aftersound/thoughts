@@ -4,6 +4,9 @@ Metadata is the key of every management aspect of data related assets. ALMOST!
 
 ![](pics/management-landscape-of-data-related-assets.png)
 
+## Apache Cassandra
+![](pics/management-landscape-of-data-related-assets-apache-cassandra.png)
+
 ## Apache Kafka
 ![](pics/management-landscape-of-data-related-assets-apache-kafka.png)
 
