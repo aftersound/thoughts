@@ -475,7 +475,7 @@ such as:
 1. service management plane with centralized OpenAPI spec management, OpenAPI spec search and discovery, 
 service instance registration and discovery, heartbeat mechanism, and more,
 2. collaborative job execution framework,
-3. Apache Kafka message production and consumption with value func,
+3. using value func with Apache Kafka message production and consumption with value func,  
 and much more.
 
 ## What's next
