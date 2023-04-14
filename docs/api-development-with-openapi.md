@@ -62,7 +62,7 @@ design and implementation remain closely aligned throughout the entire lifecycle
 
 ## Spec-only API development using Weave
 
-Weave, the open source project I have been worked on for a while, offers such a "spec-only" approach to API development. 
+Weave, the open source project I have been working on for a while, offers such a "spec-only" approach to API development. 
 
 It has a highly extensible framework supporting various extension points: ServiceExecutor, ComponentFactory, 
 ProcessorFactory, and more. All functionalities and capabilities are introduced through extensions, ensuring a 
