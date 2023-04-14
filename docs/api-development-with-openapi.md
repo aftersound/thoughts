@@ -18,7 +18,7 @@ The latest version of the OpenAPI Specification, 3.1.0, can be found at https://
 version introduces incremental improvements and several new features compared to version 3.0.3. The two enhancements 
 that I like the most are: (1) better alignment with JSON Schema, which streamlines schema definition and validation, 
 and (2) the addition of 'summary' and 'description' support, which significantly improves human-readability. I highly 
-recommend that anyone working with RESTful APIs or Microservices Architecture takes the time to explore this update. 
+recommend that anyone working with RESTful APIs or microservices takes the time to explore this update. 
 
 ## How to leverage OpenAPI
 For those of us in the space of API-driven software development, the question is how we can use OpenAPI. 
@@ -471,9 +471,12 @@ curl -H 'Accept: application/json' http://localhost:8080/greet/aftersound
 For more advanced examples and demonstrations, please visit the Weave Docker Hub repository at 
 https://hub.docker.com/r/aftersound/weave. The starting point demo instruction API showcases a variety of examples that 
 emphasize the capabilities and versatility of the Weave framework and its extensions. Featured examples cover areas 
-such as: (1) service management planes with centralized OpenAPI spec management, OpenAPI spec search and discovery, 
-service instance registration and discovery, heartbeat mechanism, and more; (2) collaborative job execution framework; 
-(3) Apache Kafka message production and consumption, and much more.
+such as: 
+1. service management plane with centralized OpenAPI spec management, OpenAPI spec search and discovery, 
+service instance registration and discovery, heartbeat mechanism, and more,
+2. collaborative job execution framework,
+3. Apache Kafka message production and consumption with value func,
+and much more.
 
 ## What's next
 
