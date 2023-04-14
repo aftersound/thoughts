@@ -21,7 +21,7 @@ and (2) the addition of 'summary' and 'description' support, which significantly
 recommend that anyone working with RESTful APIs or Microservices Architecture takes the time to explore this update. 
 
 ## How to leverage OpenAPI
-For those of use in the space of API-driven software development, the question is how we can use OpenAPI. 
+For those of us in the space of API-driven software development, the question is how we can use OpenAPI. 
 
 In situations where RESTful APIs were developed before the introduction and widespread adoption of the OpenAPI 
 Specification, it is still possible to retroactively document these APIs using the OpenAPI format. By doing so, 
